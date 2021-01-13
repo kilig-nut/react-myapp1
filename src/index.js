@@ -1,7 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Calculator from './20.烧开水/Calculator';
+// import Boilingverdict from './20.烧开水/Boilingverdict';
+// import Selector2 from './18.select受控2';
+// import H2 from './19.非受控组件&ref2';
+// import H from './19.非受控组件&ref';
+// import G from './17.受控组件';
+// import Selector from './18.select受控';
+// import F from './16.列表&keys';
+// import E from './15.运算符';
+// import D from './14.toggle案例';
+// import C from './13.阻止组件渲染';
 // import PreventDe from './11.阻止默认事件';
-import B from './12.注册事件';
+// import B from './12.注册事件';
 // import Tick from './03.改造tick案例';
 // import Click from './06.阻止默认行为';
 // import Parent from './07.props的只读性';
@@ -25,7 +36,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <B />
+    <Calculator />
   </React.StrictMode>,
   document.getElementById('root')
 );
